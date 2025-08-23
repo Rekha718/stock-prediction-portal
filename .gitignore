@@ -35,4 +35,9 @@ psd
 thumb
 sketch
 
+env/
+venv/
+ENV/
+.venv/
+
 # End of https://www.toptal.com/developers/gitignore/api/django,react
