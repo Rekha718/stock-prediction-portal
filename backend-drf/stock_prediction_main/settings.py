@@ -95,8 +95,9 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # CORS
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:5173',
+    "https://stock-prediction-portal-6bk1tqpuf-rekha-s-projects.vercel.app",  # your deployed frontend
 ]
+
 
 # REST Framework
 REST_FRAMEWORK = {
