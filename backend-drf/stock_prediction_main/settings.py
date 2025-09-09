@@ -24,10 +24,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'accounts',
-    'api',
     'corsheaders',
     'rest_framework_simplejwt',
+    'accounts',
+    'api',
 ]
 
 MIDDLEWARE = [
@@ -47,7 +47,7 @@ ROOT_URLCONF = 'stock_prediction_main.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],  # Add template paths if needed
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -95,9 +95,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # CORS
 CORS_ALLOWED_ORIGINS = [
-     "https://stock-prediction-portal-ebon.vercel.app",
+    "https://stock-prediction-portal-ebon.vercel.app",
 ]
-
 
 # REST Framework
 REST_FRAMEWORK = {
