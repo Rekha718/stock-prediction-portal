@@ -13,7 +13,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=False, cast=bool)
-ALLOWED_HOSTS = ['.onrender.com', 'localhost']
+ALLOWED_HOSTS = ['.onrender.com']
 
 # Application definition
 INSTALLED_APPS = [
