@@ -1,6 +1,4 @@
-"""
-Django settings for stock_prediction_main project.
-"""
+""" Django settings for stock_prediction_main project. """
 
 from pathlib import Path
 from decouple import config
@@ -24,10 +22,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'corsheaders',
-    'rest_framework_simplejwt',
     'accounts',
     'api',
+    'corsheaders',
+    'rest_framework_simplejwt',
 ]
 
 MIDDLEWARE = [
@@ -47,7 +45,7 @@ ROOT_URLCONF = 'stock_prediction_main.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [],  # Add template paths if needed
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
